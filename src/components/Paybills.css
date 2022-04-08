@@ -1,0 +1,106 @@
+.paybills_background{
+
+    width:100%;
+    height:27vw;
+    object-fit: contain;
+    background-color:#00baf2; 
+    font-size: 36px;
+    
+  
+}
+.paybills_heading{
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-inline:4vw;
+    padding-top: 5vw;
+}
+.paybill_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.paybill_icons_content img{
+    display: flex;
+    height:60px;
+    width:60px;
+    object-fit: contain;
+    margin-top: 20px;
+    
+}
+.paybill_icons_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   justify-content: center;
+   align-items: center;
+    /* margin-inline: 4vw; */
+    width:11vw;
+    max-height:13vw;
+    /* background-color: antiquewhite; */
+    margin-top: 3vw;
+    cursor: pointer;
+ 
+    /* background-color: rebeccapurple; */
+}
+.paybill_icons_content p{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    line-height: 1.5;
+    background-size:8px;
+    background-position:6px ;
+    padding-left: 3.5vw;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    font-family: Inter,sans-serif;
+   width:40%;
+    
+   
+}
+.paybill_icons_content:hover{
+
+    background: #00afe3;
+    border-radius: 15px;
+    transition: 1s;
+    transition: width 2s, height 4s;
+  
+}
+.icon_paybill{
+
+   
+    /* position: absolute; */
+    display: flex;
+   justify-content: flex-end;
+   color: white;
+   font-size: 15px;
+   
+   /* background: #f5f7fa   url(../images/secondbannerimages/chevron-right-solid.svg)  no-repeat right  ; */
+   /* right: 10;
+   padding-left: 60px;
+   padding-top: 45px; */
+  
+   
+}
+.icon_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.name3_icon{
+    display: flex;
+    float: left;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
