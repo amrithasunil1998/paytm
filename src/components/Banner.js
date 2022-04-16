@@ -16,7 +16,7 @@ function Banner() {
 
 
             <div className='banner_background'>
-                <div className='divider'>
+               
                     <div className='banner_image_two'>
                         <img src={bannerimagetwo}></img>
                     </div>
@@ -32,10 +32,11 @@ function Banner() {
 
                         Download Paytm App <p><AiFillApple /> <p style={{ fontSize: "15px" }}><FaGooglePlay /></p></p>
                     </div>
-                </div>
+               
                 <div className='banner_image_one'>
                     <img src={bannerimageone}></img>
                 </div>
+               
             </div>
 
         </div>

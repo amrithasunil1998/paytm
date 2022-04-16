@@ -1,0 +1,86 @@
+.paymentbank_main{
+    width:100%;
+    margin-top: 10vw;
+   
+    
+}
+
+.paymentbank_card{
+  background-color: white;
+  height: 50vw;
+  width:100%;
+  padding-top: 10vw;
+ 
+}
+.paymentbank_heading{
+
+    width: 50vw;
+    height: 5vw;
+    background-color:blueviolet;
+  /* margin-top: 50vw; */
+  margin-inline: 7vw;
+
+  
+
+}
+.paymentbank_content_container
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+
+}
+.paymentbank_leftside_content
+{
+    width:490px;
+    height:38vw;
+    background-color: darkcyan;
+    margin-top: 5vw;
+
+   
+}
+.paymentbank_rightside_content{
+    margin-top: 5vw;
+    display: flex;
+    width:490px;
+    height:38vw;
+    background-color: darkcyan;
+ 
+}
+.leftside_content_one{
+display: flex;
+width:190px;
+height: 60px;
+background-color:blueviolet;
+
+
+}
+.leftside_content_two{
+    background-color:blueviolet;
+   
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    width:340px;
+height: 80px;
+margin-top: 48px;
+}
+.leftside_content_three
+{
+    margin-top: 12px;
+    display: block;
+    width: 490px;
+    height: 10vw;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    background-color: blueviolet;
+}
+.paymentbank_button{
+    width: 167px;
+    height: 85px;
+    background-color: blueviolet;
+    margin-top: 20px;
+}

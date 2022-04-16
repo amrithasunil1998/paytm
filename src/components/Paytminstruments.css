@@ -1,0 +1,230 @@
+.instruments_main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vw;
+    max-width: 100%;
+    max-height: auto;
+  
+}
+
+.instruments_heading{
+  
+    padding-left: 7vw;
+    /* margin: 0 10px 35px; */
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    
+    font-family: "Inter" sans-serif;
+
+}
+.instruments_card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;  
+   width:85%;
+   height:100%;  
+    margin-inline: 7vw;
+    border-radius: 15px;
+   margin-top: 40px;
+}
+
+
+
+.image_left{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    /* padding-bottom: 25vw; */
+    padding-left: 5vw;
+
+}
+
+.image_left img{
+    height: 6vw;
+    width:6vw;
+    object-fit: contain;
+    
+}
+.image_left p{
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+    width: 10%;
+   
+}
+.image_right img{
+
+    height: 35vw;
+    width:40vw;
+    object-fit: contain;
+    margin-block: 6vw;
+    /* padding-left: 20vw; */
+}
+.name2{
+    margin-top: 48px;
+    font-family: "Inter" sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 6vw;
+    width: 63%;
+  
+}
+.name3{
+ 
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-left: 6vw;
+    font-family: "Inter" sans-serif;
+    width: 65%;
+}
+.instruments_card_innerportion
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+}
+
+.appbutton
+{
+    margin-left: 2vw;
+}
+
+@media(max-width:1024px)
+{
+    .image_right img{
+        height: 30vw;
+        width: 30vw;
+        object-fit: contain;
+    }
+    .name2{
+        width: 70%;
+        
+    }
+    .name3{
+        text-align: justify;
+    }
+    .instruments_card{
+        height: 57vw;
+    }
+   
+  
+}
+@media(max-width:768px)
+{
+   
+    .name2{
+        width: 70%;
+        /* padding-left: 5vw; */
+        font-size: 29px;
+
+    }
+    .name3{
+        text-align: justify;
+        padding-left: 6vw;
+    }
+    
+   .instruments_heading
+   {
+       font-size: 35px;
+   }
+   .image_right img
+   {
+     display: block; 
+   }
+   .appbutton{
+      display: block;
+      margin-left: 2vw;
+    margin-block: 10vw;
+   }
+   .instruments_card_innerportion
+   {
+       display: flex;
+       flex-direction: row-reverse;
+       padding-left: 5vw;
+   }
+   .instruments_card{
+       height: auto;
+       
+       
+      
+   }
+  
+   
+}
+@media(max-width:425px)
+{
+    .instruments_card{
+       height:auto;
+       width: 85vw;
+     
+    }
+    .instruments_heading{
+        font-size: 28px;
+    }
+    .image_right{
+        display: none;
+    }
+    .appbutton{
+        margin-block: 10vw;
+    }
+    .instruments_card_innerportion{
+        padding-left: 10vw;
+    }
+    .image_left img{
+        height: 20vw;
+        width:20vw;
+    }
+   
+}
+@media(max-width:375px)
+{
+    .name2{
+        width:70%;
+        font-size: 25px;
+    }
+    .instruments_card_innerportion{
+        padding-left: 5vw;
+    }
+    .instruments_heading{
+        font-size: 25px;
+    }
+    .image_left img{
+        height: 20vw;
+        width:20vw;
+    }
+   
+    
+}
+@media(max-width:320px)
+{
+    .instruments_heading{
+        font-size: 20px;
+    }
+
+    .image_left img{
+        height: 20vw;
+        width:20vw;
+    }
+    .instruments_card_innerportion{
+        padding-left: 1vw;
+    }
+     .name3{
+      
+         padding-left: 2vw;
+         width: 90%;
+     }
+     .name2{
+         font-size: 20px;
+         width: 90%;
+         padding-left: 2vw;
+        
+     }
+     .instruments_card{
+         width: 86vw;
+     }
+   
+}

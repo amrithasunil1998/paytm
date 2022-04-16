@@ -1,12 +1,15 @@
-.paybills_background{
+
+.book_background{
 
     max-width:100%;
     height:27vw;
     object-fit: contain;
-    background-color:#00baf2; 
+    background-color:#0f4a8a; 
     font-size: 36px;
+    
+  
 }
-.paybills_heading{
+.book_heading{
     color: #fff;
     font-weight: 700;
     display: flex;
@@ -14,14 +17,13 @@
     margin-inline:4vw;
     padding-top: 5vw;
 }
-.paybill_icons{
+.book_icons{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    max-width: 100%;
 }
 
-.paybill_icons_content img{
+.book_icons_content img{
     display: flex;
     height:60px;
     width:60px;
@@ -31,16 +33,17 @@
     position: relative;
     
 }
-.paybill_icons_content{
+.book_icons_content{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     width:11vw;
     max-height:13vw;
     margin-top: 3vw;
+    
     cursor: pointer;
 }
-.paybill_icons_content p{
+.book_icons_content p{
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -49,7 +52,7 @@
     background-size:8px;
     background-position:6px ;
     padding-left: 1vw;
-    font-size: 18px;
+        font-size: 18px;
     color: #fff;
     font-weight: 700;
     font-family: Inter,sans-serif;
@@ -57,15 +60,15 @@
     
    
 }
-.paybill_icons_content:hover{
+.book_icons_content:hover{
 
-    background: #00afe3;
+    background: #0d3e80;
     border-radius: 15px;
     transition: 1s;
     transition: width 2s, height 4s;
   
 }
-    .icon_paybill{
+    .book_paybill{
          display: flex;
          justify-content: flex-end;
          color: white;
@@ -76,13 +79,13 @@
   
    
 }
-.icon_text{
+.book_text{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
 }
-.name3_icon{
+.book_name3_icon{
     display: flex;
     float: left;
     column-gap: 10px;
@@ -98,162 +101,181 @@
 
 @media(max-width:2560px)
 {
-    .paybill_icons_content img{
+    .book_icons_content img{
         height:4vw;
         width:4vw;
        
     }
-    .paybill_icons_content p{
+    .book_icons_content p{
         font-size: 25px;
         width: 30%;
     }
-    .paybill_icons_content{
-       margin-left: 70px;
+    .book_icons_content {
+
+       margin-left: 0px;
+      height: 30vw;
+      width: 10vw;
+    
     }
-    .paybill_icons
+    .book_icons
     {
         padding-left: 10vw;
         padding-right:10vw ;
     }
-    .paybills_heading{
+    .book_heading{
         margin-inline: 12vw;
     }
+
 
 }
 @media(max-width:1440px)
 {
-    .paybill_icons_content img{
+    .book_icons_content img{
         height:60px;
         width:60px;
     }
-    .paybill_icons_content p{
+    .book_icons_content p{
         width:40%;
         font-size: 15px;
 
     }
-    .paybill_icons_content{
+    .book_icons_content{
+        width:10vw;
+        max-height: 13vw;
         margin-left: unset;
      }
-     .paybill_icons
-     {
+     .book_icons
+     { 
          padding-left: unset;
          padding-right:unset;
      }
-     .paybills_heading{
+     .book_heading{
          margin-inline: 4vw;
      }
-
 
 }
 
 @media(max-width:1024px){
 
-    .paybills_background{
+    .book_background{
         height:30vw;
     }
-    .paybill_icons_content img{
+    .book_icons_content img{
         height:50px;
         width:50px;
 
     }
-    .paybill_icons_content p{
+    .book_icons_content p{
         font-size: 13px;
+    }
+    .book_icons_content{
+
+        width:10vw;
+        max-height: 13vw;
+        
+       
+    }
+    .book_icons{
+        /* background-color: aquamarine; */
+        height: 17vw;
     }
 }
 @media(max-width:768px)
 {
-    .paybill_icons_content img{
+    .book_icons_content img{
         height:45px;
         width:45px;
-     
-        
-
     }
-    .paybill_icons_content p{
+    .book_icons_content p{
         font-size: 13px; 
     }
-    .paybills_background{
+    .book_background
+    {
         height: 35vw;
-        max-width: 100%;
-        
-        
+        max-width: 100%;   
     }
-    .paybill_icons{
+    .book_icons{
        max-width: 100%;
-       max-height: auto;
-       padding-left: 280px;
+       height: 20vw;
+       padding-left: 290px;
        overflow-x: scroll;
        overflow-y: hidden;
        /* column-gap: 70px; */
-      
+       /* background-color: aquamarine; */
+           
     }
-    .paybill_icons::-webkit-scrollbar{
+    .book_icons::-webkit-scrollbar{
         display: none;
     }
-    .paybill_icons_content{
-        width:20vw;
-        max-height:17vw;
+    .book_icons_content{
+        width:43vw;
+        max-height:15vw;
         padding-left: 4vw;
-        column-gap: 50vw;
-        margin-left: 6vw;
+        margin-left: 8vw;
         
     }
+    
     
     
    
 
 }
 
+
+
+
+
 @media(max-width:425px)
 {
-    .paybills_background{
+    .book_background{
 
-        height: 60vw;
+        height: 55vw;
         max-width: 100%;
     }
-    .paybill_icons_content{
+    .book_icons_content{
       
-      
-        width:35vw;
-        max-height:30vw;
+        width:43vw;
+        max-height:25vw;
+        padding-left: 4vw;
+        margin-left: 8vw;
+       
        
     }
-    .paybill_icons{
-        max-width: 100%;
-       padding-left: 370px;
-       position: relative;
-        /* column-gap: 40px; */
-       
+    .book_icons{
+        padding-left: 350px;
+        height: 30vw;
+        padding-top: 10px;
+        /* background-color: lightblue; */
     }
-    .paybills_heading{
-        white-space: nowrap;
+    .book_heading{
         font-size: 28px;
     }
+    
 }
 
 @media(max-width:375px)
 {
- .paybills_background{
+ .book_background{
      max-width: 100%;
  }
- .paybill_icons{
+ .book_icons{
      max-width: 100%;
      
  }
- .paybill_icons_content{
+ .book_icons_content{
      height: 75vw;
  }
- .paybill_icons_content img{
-     height: 10vw;
-     width:10vw;
+ .book_icons_content img{
+    height: 10vw;
+    width:10vw;
+}
+.book_icons_content p{
+    font-size: 12px;
+}
+ .book_heading{
+     font-size: 21px;
  }
- .paybill_icons_content p{
-     font-size: 12px;
- }
- .paybills_heading{
-     font-size: 22px;
- }
-.paybills_background{
+ .book_background{
     height: 50vw;
 }
    
@@ -262,10 +284,10 @@
 @media(max-width:320px)
 {
     
-    .paybills_background{
+    .book_background{
        height: 60vw;
     }
-    .paybill_icons_content{
+    .book_icons_content{
       
        
         width:22vw;
@@ -273,7 +295,7 @@
         /* background-color: aqua; */
        
     }
-    .paybill_icons{
+    .book_icons{
         max-width: 100%;
        height: 60vw;
        
@@ -281,18 +303,18 @@
         /* column-gap: 40px; */
        
     }
-    .paybill_icons_content img{
+    .book_icons_content img{
         height: 11vw;
         width:11vw;
         /* background-color: burlywood; */
     }
-    .paybill_icons_content p{
+    .book_icons_content p{
         font-size: 11px;
     }
-    .paybills_heading{
+    .book_heading{
         font-size: 20px;
     }
-    .name3_icon{
+    .book_icon{
         column-gap: 5px;
     }
 }

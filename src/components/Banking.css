@@ -1,0 +1,163 @@
+.banking_main{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 7vw;
+    column-gap: 3vw;
+
+}
+.banking_content
+{
+display: flex;
+flex-direction: column;
+margin-top: 4vw;
+background-color:white;
+border-radius: 18px;
+width: 550px;
+height: 630px;
+
+}
+
+.banking_content_imageone img
+{
+ position: relative;
+   width: 15vw;
+    height: auto;
+    object-fit: cover;
+    margin-inline: 4vw;
+    padding-top: 100px;
+  
+  
+  
+
+}
+.banking_content_imagetwo img{
+    height: 20vw;
+    width: auto;
+    padding-top: 25px;
+    padding-left: 40px;
+ 
+
+}
+.banking_content_heading{
+    padding-top: 30px;
+    margin-inline: 4vw;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    width:68%;
+    font-family: "Inter" sans-serif;
+}
+.banking_content_heading_content{
+
+    margin-inline:4vw ;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 20px;
+    font-family: "Inter" sans-serif;
+}
+
+ @media(max-width:2560px)
+{
+  .banking_content
+  {
+    width: 41vw;
+    height: 39vw;
+    column-gap: 0px;
+  }
+  .banking_content_imagetwo img{
+
+    padding-top: 8.2vw;
+  }
+  
+
+
+}
+
+@media(max-width:1440px)
+{
+  .banking_content{
+    height: 52.5vw;
+  }
+  .banking_content_imagetwo img{
+    padding-top: 9.5vw;
+  }
+}
+@media(max-width:1366px)
+{ 
+  .banking_content_imagetwo img{
+  padding-top: 8vw;
+  }
+  .banking_content_heading{
+    width:67%;
+  }
+  .banking_content_heading_content{
+    width: 75%;
+  }
+
+
+
+}
+@media(max-width:1024px)
+{
+
+  .banking_content{
+    height: 66vw;
+  }
+  .banking_content_imagetwo img{
+    padding-top:11vw ;
+  }
+  .banking_content_heading_content{
+    text-align: justify;
+  }
+  .banking_content_heading{
+    width:90%;
+  }
+}
+
+@media(max-width:768px)
+{
+  .banking_content_heading{
+    font-size: 30px;
+    width: 90%;
+  }
+  .banking_content{
+    height: 81.5vw;
+  }
+  .banking_content_imageone img{
+    width: 20vw;
+    height: auto;
+  }
+  
+}
+
+@media(max-width:425px)
+{
+  .banking_content{
+    height: 160vw;
+    width: 85vw;
+  }
+ 
+  .banking_main{
+    display: flex;
+    flex-direction: column;
+  }
+  .banking_content_imagetwo img{
+    width: 50vw;
+    height: 30vw;
+  }
+  .banking_content_imageone img{
+    width: 40vw;
+    height: auto;
+  }
+}
+@media(max-width:320px)
+{
+  .banking_content{
+    height: 190vw;
+  }
+  .banking_content_heading{
+    font-size: 25px;
+  }
+}

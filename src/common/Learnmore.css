@@ -1,0 +1,35 @@
+.learnmore_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 18px;
+    height: 3.5vw;
+    width: 10vw;
+    background-color:  #002970;
+    color: white;
+    white-space: nowrap;
+    border-radius: 25px;
+    margin-left: 4vw;
+    margin-top: 1vw;
+   padding-left: 30px;
+   font-family: "Inter" sans-serif;
+   /* background:url(../images/headerimages/chevron-right-solid.svg) no-repeat right ; */
+   cursor: pointer;
+}
+
+.learnmore_button:hover {
+    background-color: #00baf2;
+    /* background: #f5f7fa   url(../images/headerimages/arrow-right-solid.svg)  no-repeat right  ; */
+    
+}
+
+@media(max-width:1024px)
+{
+    .learnmore_button{
+       margin-top: 5vw;
+        height: 45px;
+        width: 150px;
+    }
+}
