@@ -1,11 +1,12 @@
 .background{
     background-color:white;
-    width: 100%;
+    max-width: 100%;
     height: 92px;
     box-shadow: 0 5px 20px rgb(0 41 112 / 10%);
     object-fit: contain;
     display: flex;
     align-items: center;
+    
 }
 .header_imgone img
 {
@@ -19,6 +20,8 @@
     width:90%;
     align-items: center;
     margin-inline: 65px;
+   
+   
    
     /* height:100px; */
     
@@ -281,7 +284,13 @@
        bottom: 0px;
     }
 
-
+.drawer{
+     
+    margin-top: 16vw;
+    position: absolute;
+    display: none;
+  
+}
  
  .multi-level,.item ul,.nav input[type="checkbox"]{
  display: none;
@@ -302,7 +311,7 @@
  .nav{
      width:100%;
      background-color: white;
-     overflow-x: hidden;
+     overflow-x: visible;
      border-bottom: 1px solid #cfdbcf;
  }
  #nav-icon{
@@ -317,6 +326,7 @@
      margin:0;
      padding:0 2em;
      list-style: none;
+     text-decoration: none;
      color:brown;
      font-weight: 100;
      width:100%;
@@ -328,7 +338,14 @@
      padding: 0 0.25em;
  }
  .nav li a{
-
+    line-height: 50px;
+    margin:0;
+    padding:0 4em;
+    list-style: none;
+    text-decoration: none;
+    color:brown;
+    font-weight: 100;
+  
     
  }
  @media(max-width:2560px)  
@@ -366,6 +383,9 @@
         min-width: 9vw;
         left: 1vw;
     }
+    .background{
+        max-width: 100%;
+    }
    
 } 
 
@@ -385,7 +405,7 @@
     .dropdown-content-three{
         min-height: 13.8vw;
         min-width: 15.3vw;
-        left: 0;
+        left: 20px;
         top: 0vw;
     }
     .dropdown-content-main-sub{
@@ -500,9 +520,9 @@
     } 
 
    @media(max-width:768px)
-    {
-        .drawer{
-            display: block;
+   {
+         .drawer{
+            display: none;
         }
         .head_text{
             display: none;

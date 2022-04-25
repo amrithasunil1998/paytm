@@ -1,19 +1,24 @@
 import React from 'react';
+import './App.css';
 import Home from './screens/Home'
-import {BrowserRouter as Router,Route, Routes} from "react-router-dom";
+import { BrowserRouter as Router ,  Route } from 'react-router-dom';
+import Billpayment from './screens/Billpayment';
+import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
 
-function App() {
+
+function App()
+ {
   return (
     <>
-   <Home />
-   <Router>
-     <Routes>
-     <Route path="/" screens={Home}></Route>
-     </Routes>
-   </Router>
-
+ 
+  <Router>
+    <Switch>
+    <Route exact path ='/'> <Home /></Route>
+    <Route path ='/Billpayment'> <Billpayment /></Route>
+    </Switch>
+  </Router>
    </>
-  );
+  )
 }
 
 export default App;

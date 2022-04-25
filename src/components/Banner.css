@@ -13,7 +13,7 @@
     font-weight: 600;
     font-size: 15px;
     color: #000;
-    font-family: Inter,sans-serif;
+    font-family: "Inter" sans-serif;
 }
 .upi{
     display: flex;
@@ -31,7 +31,7 @@
     font-weight: 600;
     /* margin-block: 17px;
     margin-inline: 54px; */
-    font-family: Inter,sans-serif;
+    font-family: "Inter" sans-serif;
 }
 
 .banner_background{
@@ -42,6 +42,9 @@
     
    
 }
+/* .banner_left{
+    margin-left: 2vw;
+} */
 
 
 .banner_image_two img{
@@ -49,7 +52,7 @@
     box-shadow: 0 5px 20px rgb(0 41 112 / 10%);
     border-radius: 16px;
     margin-inline: 4vw;
-    margin-top: 13vw;
+    margin-top: 10vw;
    
 }
 .banner_content_heading{
@@ -59,6 +62,7 @@
     line-height: 65px;
     width: 50vw;
     margin-inline: 4vw;
+   
    
 
 }
@@ -95,7 +99,7 @@
     white-space: nowrap;
     background-color: #000;
     transition: 0.5s;
-    margin-inline: 4vw;
+    margin-left: 4vw;
     margin-top: 40px;
     background-size: 15px;
     background-position: 13vw;
@@ -227,13 +231,14 @@
           padding-left: 2vw;
         
       }
+     
     
     }
 
     @media(max-width:320px)
     {
         .message{
-            padding-left: 10vw;
+            padding-left: 5vw;
         }
         .banner_background{
             width: 100%;
@@ -245,5 +250,6 @@
         .download_app{
             width:70vw;
         }
+       
         
     }

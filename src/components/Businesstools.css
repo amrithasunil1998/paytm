@@ -1,0 +1,310 @@
+.businesstools_main
+{
+    
+    max-width:100%;
+    height: auto;
+    background-color:white;
+    padding-top: 10vw;
+}
+.businesstools_heading
+{
+    width: 480px;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-left: 8vw;
+    font-family: "Inter" sans-serif;
+    /* background-color: brown; */
+}
+.businesstools_card_container
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    width:85%;
+    height: auto;
+    
+    margin-left: 8vw;
+    margin-top: 8vw;
+    column-gap: 2vw;
+    /* background-color: brown; */
+  
+}
+
+.businesstools_card
+{
+   
+    width: 18vw;
+    height:auto;
+    border-radius: 10px;
+    /* background-color: blueviolet; */
+    
+}
+.businesstools_card_image img
+
+{
+    width: 100%;
+    height:15vw;
+   
+   
+    
+}
+.businesstools_card_image_text_one
+{
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 2vw;
+    width:70%;
+    height: auto;
+    font-family: "Inter" sans-serif;
+   
+}
+.businesstools_card_image_text_two
+{
+    font-size: 20.5px;
+    font-weight: 500;
+    line-height: 30px;
+   margin-top: 2vw;
+    width:100%;
+    height: auto;
+    font-family: "Inter" sans-serif;
+   
+}
+.businesstools_card_image_text_three
+{
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 15px;
+   margin-top: 2vw;
+    width:50%;
+    height: 20px;
+    font-family: "Inter" sans-serif;
+  
+    
+}
+.businesstools_card_image_text_three:hover{
+    background:url("../images/headerimages/arrow-right-solid.svg") right no-repeat;
+    background-size: 13px;
+    background-position: 90px;
+ /* transition: 1s; */
+    
+}
+
+@media(max-width:2560px)
+{
+    .businesstools_heading
+    {
+        padding-left: 25vw;
+    }
+  
+    .businesstools_card_container
+    {
+        column-gap: 0px;
+        width: 50%;
+        margin-left: 25vw;
+        
+    }
+    .businesstools_card{
+        width: 10vw;
+    }
+    .businesstools_card_image_text_one{
+
+        width: 70%;
+    }
+    .businesstools_card_image_text_two{
+        margin-top: 5px;
+        width: 92%;
+    }
+    .businesstools_card_image_text_three
+    {
+        margin-top: 10px;
+    }
+    .businesstools_card_image img {
+        height: 10vw;
+        width: 10vw;
+        object-fit: contain;
+    }
+    .businesstools_main
+    {
+        max-width: 100%;
+        height: 35vw;
+    }
+}
+
+@media(max-width:1440px)
+{
+    .businesstools_heading
+    {
+        padding-left: 8vw;
+    }
+  
+    .businesstools_card_container
+    {
+        column-gap: 2px;
+        width: 85%;
+        margin-left: 8vw;
+        
+    }
+    .businesstools_card{
+        width: 18vw;
+    }
+    .businesstools_card_image_text_one{
+
+        width: 70%;
+    }
+    .businesstools_card_image_text_two{
+        margin-top: 2vw;
+        width: 90%;
+    }
+    .businesstools_card_image_text_three
+    {
+        margin-top: 2vw;
+    }
+    .businesstools_card_image img {
+        height: 15vw;
+        width: 100%;
+        object-fit: contain;
+    }
+    .businesstools_main
+    {
+        max-width: 100%;
+        height: 55vw;
+    }
+}
+
+@media(max-width:1366px)
+{
+    .businesstools_card_image_text_two{
+      
+        width: 95%;
+    }
+}
+@media(max-width:1024px)
+{
+    .businesstools_card_image_text_one{
+        font-size: 20px;
+    }
+    .businesstools_card_image_text_two{
+        font-size: 15px;
+        width: 92%;
+    }
+    .businesstools_main
+    {
+        max-width: 100%;
+        height: 60vw;
+    }
+}
+@media(max-width:768px)
+{
+    .businesstools_card_image_text_one{
+        font-size: 20px;
+        width: 92%;
+    }
+    .businesstools_card_image_text_two{
+        font-size: 15px;
+        width: 22vw;
+        text-align: justify;
+    }
+    .businesstools_card_container
+    {
+        display: grid;
+        grid-template-columns:  auto auto ;
+       
+    }
+    .businesstools_main
+    {
+        height: 120vw;
+        max-width: 100%;
+    }
+    .businesstools_card{
+       margin-left: 10vw;
+    }
+    
+    
+}
+
+@media(max-width:425px)
+{
+    .businesstools_heading{
+        font-size: 18px;
+        width: 390px;
+    }
+    .businesstools_main{
+        max-width: 100%;
+        height: 455vw;
+     
+    }
+    .businesstools_card_image img {
+        width:50vw;
+        height:50vw;
+        object-fit: contain;
+    }
+   .businesstools_card_container
+   {
+       display: grid;
+       grid-template-columns: auto  ;
+       row-gap: 10vw;
+       column-gap: 50px;
+   }
+   .businesstools_card_image_text_one{
+       width: 40vw;
+       font-size: 18px;
+   }
+   .businesstools_card_image_text_two
+   {
+    width: 40vw;
+   }
+   .businesstools_card
+   {
+       margin-left: 10vw;
+       padding-left: 10vw;
+       width: 50vw;
+       /* height:100vw; */
+       padding-bottom: 20px;
+        border: 1px solid lavender;
+    
+   }
+}
+
+@media(max-width:375px)
+{
+    .businesstools_heading{
+        font-size: 18px;
+        width: 320px;
+    }
+    .businesstools_card_image_text_two{
+        width: 47vw;
+    }
+    .businesstools_heading
+    {
+        line-height: 1.5;
+    }
+    .businesstools_card
+    {
+        width: 60vw;
+        margin-left: 5vw;
+        border: 1px solid lavender;
+    }
+    .businesstools_main
+    {
+        height: 480vw;
+    }
+}
+@media(max-width:320px)
+{
+    .businesstools_heading{
+        width: 295px;
+    }
+    .businesstools_card_image_text_two{
+        width:50vw;
+    }
+    .businesstools_card{
+        width: 58vw;
+        border: 1px solid lavender;
+    }
+    .businesstools_main
+    {
+        height: 520vw;
+    }
+}

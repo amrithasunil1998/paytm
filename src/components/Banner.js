@@ -4,6 +4,7 @@ import bannerimagetwo from '../images/bannerimages/bannerimagetwo.png'
 import bannerimageone from '../images/bannerimages/bannerimageone.webp'
 import { FaGooglePlay } from 'react-icons/fa'
 import { AiFillApple } from 'react-icons/ai'
+
 function Banner() {
     return (
         <div className='banner_main'>
@@ -16,7 +17,7 @@ function Banner() {
 
 
             <div className='banner_background'>
-               
+               <div className='banner_left'>
                     <div className='banner_image_two'>
                         <img src={bannerimagetwo}></img>
                     </div>
@@ -29,14 +30,14 @@ function Banner() {
                     </div>
 
                     <div className='download_app'>
-
+                    
                         Download Paytm App <p><AiFillApple /> <p style={{ fontSize: "15px" }}><FaGooglePlay /></p></p>
                     </div>
-               
+                    </div>
                 <div className='banner_image_one'>
                     <img src={bannerimageone}></img>
                 </div>
-               
+              
             </div>
 
         </div>

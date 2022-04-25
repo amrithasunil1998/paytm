@@ -31,7 +31,7 @@ const paytminstruments = {
             name2: "Want it ? No more waiting for it.",
             name3: "With Paytm Postpaid, your wishlist doesn't have to be on the waitlist. Shop for the things you want today and pay for them next month.",
             url2: "https://assetscdn1.paytm.com/images/catalog/view/307191/1613622537678.png",
-            button:<Learnmore />,
+            button2:<Learnmore />,
             url: "https://assetscdn1.paytm.com/images/catalog/view_item/850764/1626077030984.png",
 
         }
@@ -63,8 +63,8 @@ function Paytminstruments() {
                                         </div>
                                         <div className='appbutton'>
                                             {item.button}</div>
-                                            {/* <div className='learnbutton'>
-                                            {item.Learnmore}</div> */}
+                                            <div className='learnbutton'>
+                                            {item.button2}</div>
                                        </div>
                                       
                                       

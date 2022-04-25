@@ -1,20 +1,23 @@
 import React from "react";
 import '../components/Header.css'
 import logo from '../images/headerimages/logo.svg'
-import { IoIosMenu } from 'react-icons/io';
+
+import { Link} from "react-router-dom";
 
 
-import sign from '../images/headerimages/sign.svg'
-import signin from '../images/headerimages/signin.svg'
 
+import Billpayment from "../screens/Billpayment";
 
 function Header() {
     return (
+
+       
         <div className="background">
             <div className="main_container">
-
+ 
                 <div className="header_imgone">
                     <img src={logo}></img>
+                  
                 </div>
                 <div className="head_text">
 
@@ -23,9 +26,14 @@ function Header() {
                             <div class='dropdown-content-main'>
                                 <a href="#">Payments</a>
                                 <div class="dropdown-content-three">
-                                    <a href="#" >Bill Payments and Recharges</a>
-                                    <a href="#">Send money to anyone</a>
-                                    <a href="#">online Payments</a>
+                              
+                                    <a href="Billpayment" >Bill Payments and Recharges 
+                                    <Link to='/Billpayment'></Link>
+                                  
+                                    </a>
+                                   <a href="#">Send money to anyone
+                                   
+                                   </a>
                                     <a href="#">Instore Payments</a>
                                 </div>
                             </div>

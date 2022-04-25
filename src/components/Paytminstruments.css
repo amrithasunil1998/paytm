@@ -4,6 +4,7 @@
     margin-top: 8vw;
     max-width: 100%;
     max-height: auto;
+   
   
 }
 
@@ -91,6 +92,9 @@
 .appbutton
 {
     margin-left: 2vw;
+}
+.learnbutton{
+    margin-left: 6vw;
 }
 
 @media(max-width:1024px)

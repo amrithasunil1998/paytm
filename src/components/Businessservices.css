@@ -1,0 +1,274 @@
+.businessservices_main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    width:100%;
+    background-color:white;
+    padding-top: 10vw;
+  margin-top: 10vw;
+
+}
+.businessservices_heading{
+   
+    margin-inline: 7vw;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+.businessservices_card{
+    margin-block: 2vw;
+    display: flex;
+    width:85%;
+    height:35vw;
+    background-color: #f5f7fa;
+    border-radius: 10px;
+    margin-inline: 7vw;
+
+}
+.businessservices_card_content{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    padding-top: 5vw;
+    padding-left: 5vw;
+    column-gap: 0vw;
+}
+.businessservices_card_left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vw;
+    margin-inline: 5vw;
+    padding-top: 3vw;
+    
+}
+.businessservices_card_left_one{
+    margin-top: 2vw;
+    width: 70%;
+   
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+   
+}
+.businessservices_card_left_two
+{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+     width: 33vw;
+    
+    
+}
+.businessservices_card_right_one img
+{
+    width:100%;
+    height: 30vw;
+    object-fit: contain;
+}
+.businessservices_card:nth-child(even)
+{
+   
+    height: 43vw;
+}
+@media(max-width:2560px)
+{
+    .businessservices_card_right_one img{
+
+        height:20vw;
+        width:20vw;
+        
+    }
+    .businessservices_heading{
+        margin-inline: 25vw;
+    }
+    .businessservices_card{
+        margin-left: 25vw;
+    }
+    .businessservices_card_left_one{
+        width: 50%;
+    }
+    .businessservices_card_left_two{
+        width: 70%;
+    }
+    .businessservices_card_left{
+        row-gap: 10px;
+    }
+    .businessservices_card{
+       width: 65%;
+        height:25vw;
+        justify-content: center;
+        margin-block: 1vw;
+    }
+    .businessservices_card_left{
+        margin-inline: 0;
+    }
+    .businessservices_card:nth-child(even)
+    {
+        height: 28vw;
+        width: 49vw;
+    }
+   .businessservices_card:nth-child(odd)
+   {
+      width: 49%;
+   }
+  
+  
+}
+@media(max-width:1440px)
+{
+    .businessservices_card_right_one img{
+
+        height:30vw;
+        width:100%;
+        object-fit: contain;
+        /* padding-left: 1.5vw; */
+        
+    }
+    .businessservices_card_left_one{
+        width: 70%;
+    }
+    .businessservices_card_left_two{
+        width: 33vw;
+    }
+    .businessservices_card_left{
+        row-gap: 2vw;
+    }
+    .businessservices_card{
+       width: 85%;
+        height:35vw;
+        justify-content: center;
+        margin-block: 2vw;
+        margin-left: 8vw;
+    }
+    .businessservices_card_left{
+        margin-inline: 5vw;
+    }
+    .businessservices_card:nth-child(even)
+    {
+        height: 40vw;
+        width:unset;
+        
+    }
+    .businessservices_heading
+    {
+        margin-inline: 7.5vw;
+    }
+  
+   .businessservices_card:nth-child(odd)
+   {
+      width: unset;
+   }
+   .businessservices_main{
+  padding-left: unset;
+  padding-top: 10vw;
+
+   }
+}
+
+@media(max-width:1366px)
+{
+    .businessservices_card_right_one img{
+        padding-left: 0;
+    }
+}
+
+@media(max-width:1024px)
+{
+    .businessservices_card:nth-child(even)
+    {
+        height: 45vw;
+       
+    }
+    .businessservices_card:nth-child(odd)
+    {
+      height: 50vw;
+    }
+    .businessservices_heading
+    {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:768px)
+{
+    .businessservices_card:nth-child(even)
+    {
+        height: 60vw;
+       
+    }
+    .businessservices_card:nth-child(odd)
+    {
+      height: 70vw;
+    }
+    
+    .businessservices_heading{
+        font-size: 35px;
+       
+    }
+    .businessservices_card_left_two{
+        text-align: justify;
+    }
+    .businessservices_card_left_one
+    {
+        font-size: 30px;
+        width: 100%;
+    }
+  
+}
+
+@media(max-width:425px)
+{
+    .businessservices_card:nth-child(even){
+        height: 90vw;
+    }
+    .businessservices_card:nth-child(odd){
+        height: 95vw;
+    }
+    .businessservices_card_right_one img
+
+    {
+        display: none;
+    }
+    .businessservices_card_left_two{
+        
+        width: 100%;
+    }
+    .businessservices_main{
+        max-width: 100%;
+    }
+}
+
+@media(max-width:375px)
+{
+    .businessservices_card:nth-child(odd){
+        height: 110vw;
+    }
+    .businessservices_heading{
+        font-size: 20px;
+       
+    }
+    .businessservices_card_left_one{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+}
+@media(max-width:320px)
+{
+    .businessservices_card:nth-child(even){
+        height: 110vw;
+    }
+    .businessservices_card:nth-child(odd){
+        height: 120vw;
+    }
+    .businessservices_heading{
+        font-size: 20px;
+       
+    }
+    .businessservices_card_left_one{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+}
